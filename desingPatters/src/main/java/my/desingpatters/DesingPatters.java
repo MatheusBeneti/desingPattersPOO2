@@ -11,6 +11,11 @@ package my.desingpatters;
 public class DesingPatters {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        ConstroiCelular factory = ConstroiCelular.getInstance();
+        Celular iphone = factory.constroiCelular("Iphone", "apple");
+        Celular galaxy = factory.constroiCelular("galaxy", "samsung");
+        iphone.fazLigacao();
+        System.out.println(iphone.getNome());
+        galaxy.fazLigacao();
     }
 }
