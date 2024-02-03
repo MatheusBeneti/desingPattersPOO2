@@ -24,7 +24,7 @@ public class Celular implements ICelular {
     
     @Override
     public void fazLigacao() {
-        System.out.println("Fazendo ligação");
+        System.out.println("Fazendo ligaçãoo");
     }
 
     @Override
